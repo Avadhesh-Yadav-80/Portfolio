@@ -10,126 +10,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Avadhesh's Portfolio</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-            transform: translateZ(0);
-        }
-        body{
-            background-color: rgb(0,0,33);
-            color:white;
-            font-family: 'Poppins', sans-serif;
-        }
-        nav{
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            height:80px;
-            border-bottom: 3px solid black;
-            background-color: rgb(18,18,60);
-        }
-        nav ul{
-            display: flex;
-            justify-content: center;
-
-        }
-        nav ul li{
-            list-style: none;
-            margin:0 24px;
-            font-size: 1.6rem;
-        }
-        nav ul li a {
-            text-decoration: none;
-            color:white;
-        }
-        nav ul li a:hover{
-            color:rgb(123, 255, 106);
-            font-size:1.6rem;
-            font-weight: bolder;
-        }
-        .left{
-            font-size: 2.5rem;
-            font-weight: bolder;
-        }
-        .firstsection{
-            display: flex;
-            justify-content: space-around;
-            margin:100px 0;
-        }
-        .firstsection > div{
-            width: 30%;
-        }
-        .leftsection{
-            font-size: 3.5rem;
-        }
-        .leftsection .buttons{
-            padding: 80px 0;
-        }
-        .leftsection .btn:hover{
-            font-size: 1.6rem;
-            background-color: rgb(120, 211, 135);
-            color: black;
-            font-weight: bold;
-        }
-        .leftsection .btn{
-            padding: 10px;
-            background-color: #1e2167;
-            color: white;
-            border: 2px solid white;
-            border-radius: 8px;
-            font-size: 16px;
-            cursor: pointer;
-        }
-        .rightsection img{
-            width: 125%;
-            border:2px solid white;
-            border-radius: 40px;
-            
-        }
-        .purple{
-            color: rgb(170, 101, 235);
-            font-weight: bolder;
-        }
-        #element{
-            color:rgb(123, 255, 106);
-            font-style: italic;
-            font-weight: bold;
-
-        }
-        .secondsection{
-            margin: auto;
-            max-width: 80vw;
-        }
-        .secondsection h1{
-            font-size: 2.9rem;
-        }
-        main hr{
-            border: 0;
-            background: rgb(134, 32, 230);
-            height: 1.3px;
-            margin: 40px 84px;
-        }
-        footer{
-            background-color: #0e0e1a;
-        }
-        .footer{
-            display: flex;
-            padding:20px 100px;
-        }
-        footer .footer-rights{
-            align-items: center;
-            text-align: center;
-        }
-    </style>
 </head>
 <body>
     <header>
         <nav class="fluid-container">
             <div class="left">
-            Avadhesh's Portfolio
-            </div>
+                <h2 class="logo">Port<span>folio</span></h2>     
+                   </div>
             <div class="right">
                 <ul>
                     <li><a href="/">Home</a></li>
@@ -148,7 +40,7 @@
                 <div>and I am a Passionate </div>
                 <span id="element"></span>
                 <div class="buttons">
-                    <a href="https://drive.google.com/file/d/17eg011PH01TERmqMIataRcH4cPey7ek6/view?usp=drivesdk" target="_blank"><button class="btn">Download Resume</button></a>
+                    <a href="https://drive.google.com/file/d/17eg011PH01TERmqMIataRcH4cPey7ek6/view?usp=drivesdk" target="_blank"><button class="btn">Download Resume</button></a>&nbsp;&nbsp;
                     <a href="https://github.com/Avadhesh-Yadav-80" target="_blank"><button class="btn" >Visit Github</button></a>
                 </div>
             </div>
@@ -158,39 +50,87 @@
             </div>
         </section>
         <hr>
-        <section class="secondsection">
-            <div class="grey">
-                What I have done so far
-            </div>
-            <h1>Work Experience</h1>
-            <hr>
-        </section>
+        <!----About section start---->
+	<section class="about">
+		<div class="main">
+			<img src="img/fbe2c4aea0fbe23db7c905f5f584995e.jpeg.jpg">
+			<div class="about-text">
+				<h2>About Me</h2>
+				<h5>Developer <span>& Designer</span></h5>
+				<p>I am a front-end web developer. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.A responsive design makes your website accessible to all users, regardless of their device.</p>
+				<button type="button">Let's Talk</button>
+			</div>
+		</div>
+	</section>
+    <hr>
 
+	<!-----service section start----------->
+	<div class="service">
+		<div class="title">
+			<h2>Our Services</h2>
+		</div>
+
+		<div class="box">
+			<div class="card">
+				<i class="fas fa-bars"></i>
+				<h5>Web Development</h5>
+				<div class="pra">
+					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
+<hr>
+			<div class="card">
+				<i class="far fa-user"></i>
+				<h5>Web Development</h5>
+				<div class="pra">
+					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="far fa-bell"></i>
+				<h5>Web Development</h5>
+				<div class="pra">
+					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
     </main>
-    <footer>
-        <div class="footer">
-            <div class="footer-first">
-                <h3>Avadhesh's Portfolio</h3>
-            </div>
-            <div class="footer-second">
-
-            </div>
-            <div class="footer-third">
-
-            </div>
-            <div class="footer-fourth">
-
-            </div>
-        </div>
-        <div class="footer-rights">
-            Copyright &#169; www.avadheshportfolio.com | All Rights Reserved.
-        </div>
-    </footer>
+    <!------Contact Me------>
+	<div class="contact-me">
+		<p>Let Me Get You A Beautiful Website.</p>
+		<a class="button-two" href="#">Hire Me</a>
+	</div>
+    	<!------footer start--------->
+        
+	<footer>
+		<p>Avadhesh Yadav</p>
+		<p>For more HTML, CSS, and coding tutorial - please click on the link below to connect with me :</p>
+		<div class="social">
+			<a href="https://www.linkedin.com/in/avadhesh-yadav-a6k4h2s0i0n2at" target="_blank"><i class="fab fa-linkedin"></i></a>
+			<a href="https://github.com/Avadhesh-Yadav-80" target="_blank"><i class="fab fa-github"></i></a>
+			<a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+		</div>
+		<p class="end">Copyright &#169; By Avadhesh Yadav | All Rights Reserved.</p>
+	</footer>
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-          strings: ['Web Developer', 'Software Engineer','Video Editor','Gamer'],
+          strings: ['Web Developer', 'Software Engineer','Video Editor'],
           typeSpeed: 55,
         });
       </script>
