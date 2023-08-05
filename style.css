@@ -23,6 +23,33 @@ span{
 	color: #f9004d;
     font-weight: bolder;
 }
+main hr{
+    border: 0;
+    background: rgb(184, 158, 151);
+    height: 1.3px;
+    margin: 40px 84px;
+}
+
+.btn{
+	background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .5s; 
+}
+.btn:hover{
+	transform: scale(1.05);
+	
+}
+nav .btn:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	color:white;
+	cursor: pointer;
+}
 nav{
 	display: flex;
 	align-items: center;
@@ -31,6 +58,7 @@ nav{
 	padding-left: 8%;
 	padding-right: 8%;
 }
+
 nav ul li{
 	list-style-type: none;
 	display: inline-block;
@@ -46,6 +74,7 @@ nav ul li a{
 nav ul li a:hover{
 	color: #94f391;
 	transition: .4s;
+	text-decoration:none;
 }
 .left{
     font-size: 2.5rem;
@@ -66,9 +95,8 @@ nav ul li a:hover{
     padding: 80px 0;
 }
 .leftsection .btn:hover{
-    font-size: 1.6rem;
-    background-color: rgb(120, 211, 135);
-    color: black;
+    font-size: 1.4rem;
+    color: white;
     font-weight: bold;
 }
 .rightsection img{
@@ -94,37 +122,7 @@ nav ul li a:hover{
 .secondsection h1{
     font-size: 2.9rem;
 }
-main hr{
-    border: 0;
-    background: rgb(134, 32, 230);
-    height: 1.3px;
-    margin: 40px 84px;
-}
-footer{
-    background-color: #0e0e1a;
-}
-.footer{
-    display: flex;
-    padding:20px 100px;
-}
-footer .footer-rights{
-    align-items: center;
-    text-align: center;
-}
 
-.btn{
-	background-color:#f9004d;
-	color: white;
-	text-decoration: none;
-	border: 2px solid transparent;
-	font-weight: bold;
-	padding: 10px 25px;
-	border-radius: 30px;
-	transition: transform .5s; 
-}
-.btn:hover{
-	transform: scale(1.05);
-}
 .content{
 	position: absolute;
 	top: 50%;
@@ -325,7 +323,7 @@ h5{
 footer{
 	position: relative;
 	width: 100%;
-	height: 400px;
+	height: 300px;
 	background: #101010;
 	display: flex;
 	flex-direction: column;
@@ -367,7 +365,7 @@ footer p:nth-child(2){
 }
 .end{
 	position: absolute;
-	color:#f9004d;
-	bottom: 35px;
-	font-size: 14px; 
+	color:#ccafb8;
+	bottom: 20px;
+	font-size: 13px; 
 }
