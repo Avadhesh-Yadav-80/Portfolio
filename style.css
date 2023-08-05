@@ -370,6 +370,7 @@ footer p:nth-child(2){
 	font-size: 13px; 
 }
 
+/* animation  */
 .btn__submit {
 	position: relative;
 	display: inline-block;
@@ -377,18 +378,18 @@ footer p:nth-child(2){
 	color: white;
 	font-size: 15px;
 	font-weight: 800;
+	font-family: cursive;
 	text-decoration: none;
-	/* text-transform: uppercase; */
+	text-transform: uppercase;
 	overflow: hidden;
 	transition: .5s;
 	letter-spacing: 3px;
-	border-radius: 5px;
   }
   
   .btn__submit:hover {
 	  background-color:#f9004d;
 	  color:white;
-	  border-radius: 5px;
+	  border-radius: 50px;
 	  text-decoration: none;
   
   }
